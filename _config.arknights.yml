@@ -1,0 +1,215 @@
+﻿# 鏍囩椤靛浘鏍?
+favicon:
+  type: "image/x-icon"
+  href: "/favicon.ico"
+
+# canvas 鍔ㄦ€佽儗鏅?
+canvas_dust: true
+
+# 榛樿棰滆壊妯″紡 dark / dark-only / light / light-only / auto
+# dark 鏆楄壊妯″紡
+# light 浜壊妯″紡
+# -only 閿佸畾棰滆壊妯″紡
+# auto 璺熼殢绯荤粺
+color: dark
+
+build_time: false # 鏄惁寮€鍚瀯寤烘椂闂存樉绀猴紝寮€鍚悗浼氬湪鐢熸垚鐨勭珯鐐归厤缃腑娣诲姞 build_time 瀛楁锛屽€间负 UTC 鏃堕棿瀛楃涓?
+
+# <body> 鑳屾櫙鍥剧墖閾炬帴
+background_image:
+  dark: https://ak.hypergryph.com/assets/index/images/ak/pc/bk.jpg # 鏆楄壊妯″紡
+  light: /img/bk.jpg # 浜壊妯″紡
+
+# 瀵艰埅鏍?
+menu:
+  Home: ""
+  # About: about/
+  # Contact: contact/
+  Archives: archives/
+
+# 渚ц竟鏍?
+aside:
+  in_left: false # 渚ц竟鏍忓湪宸?true / false
+  logo: https://ak.hypergryph.com/assets/index/images/ak/pc/faction/1.png #鍥剧墖閾炬帴锛屽缓璁?1:1 姣斾緥
+  logo_margin: 0 # 涓?Logo 鍥剧墖璁剧疆 CSS margin 灞炴€у€硷紝鍙傝€冿細https://developer.mozilla.org/zh-CN/docs/Web/CSS/margin
+  logo_border_radius: 0 # 涓?Logo 鍥剧墖璁剧疆 CSS border-radius 灞炴€у€硷紝鍙傝€冿細https://developer.mozilla.org/zh-CN/docs/Web/CSS/border-radius
+  dr: / # 渚ц竟鏍?Dr. 閾炬帴
+  icp: # ICP 澶囨鍙凤紝涓庣増鏉冨０鏄庣浉鍚岋紝浣嗕細閾炬帴鍒?https://beian.miit.gov.cn/
+  copyright: # 鐗堟潈澹版槑銆佸妗堝彿绛夛紝鍙嚜瀹氫箟閿€硷紝涓嶆兂鏄剧ず鍒欑暀绌?
+    # 钀?
+    #   钀孖CP澶嘪XXXXXXX鍙? https://icp.gov.moe/?keyword=XXXXXXXX
+    # copyright:
+    #   CC BY-NC-SA 4.0: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh
+
+# 绀句氦閾炬帴
+# 鏍煎紡锛氶摼鎺?|| 鍥炬爣
+# 鍥炬爣鏀寔閾炬帴涓?FontAwesome
+# FontAwesome 鏍煎紡鍙敤鍥炬爣鍙傝€冿細https://fontawesome.com/icons
+social:
+  # GitHub: https://github.com/yourname || fab fa-github
+  # E-Mail: mailto:yourname@gmail.com || fa fa-envelope
+  # BiliBili: https://space.bilibili.com/0000000 || fa-brands fa-bilibili
+  # Weibo: https://weibo.com/yourname || fab fa-weibo
+  # Zhihu: https://www.zhihu.com/people/yourname || fab fa-zhihu
+
+# post 鏂囩珷椤甸潰閰嶇疆锛泃rue / false
+post:
+  date: true # 鏄惁鏄剧ず鍙戝竷鏃ユ湡
+  updated: true # 鏄惁鏄剧ず淇敼鏃ユ湡
+  excerpt: true # 鏄惁鍦ㄦ枃绔犱腑鏄剧ず鎽樿鍐呭锛?!-- more--> 浠ヤ笂鐨勫唴瀹癸級
+  # 鏂囩珷鏈樉绀烘墦璧忎簩缁寸爜
+  reward:
+    # 鏀粯瀹?| Alipay: img/Alipay.png
+    # 寰俊 | Wechat: img/WeChat.png
+  # 浠ヤ笅涓ら」渚濊禆 hexo-wordcount锛岃鍙傞槄 README 寮€鍚?
+  count: false # 鏄惁鏄剧ず瀛楁暟缁熻
+  time: false # 鏄惁鏄剧ず棰勮闃呰鏃堕暱
+  code_fold: 15 # 褰撲唬鐮佸皬浜庣瓑姝よ鏁版椂榛樿灞曞紑锛岃涓?-1 鍒欏叏閮ㄥ睍寮€
+
+# 鏂囩珷鍐呯洰褰?
+toc:
+  list_number: true # true / false 锛涙槸鍚︽樉绀虹紪鍙?
+  max_depth: 6 # 鏈€澶х洰褰曟繁搴?
+  min_depth: 1 # 鏈€灏忕洰褰曟繁搴?
+
+# 褰掓。椤?
+archives:
+  categories_count: true # 鏄惁鏄剧ず鍒嗙被鎬绘暟
+  tags_count: true # 鏄惁鏄剧ず鏍囩鎬绘暟
+
+# 鎼滅储
+search:
+  enable: true
+  content: true # 鑻ヤ负 false锛屼粎鍙悳绱㈡爣棰樺強 metadata
+  preload: false # 鑷姩鍔犺浇鎼滅储鏁版嵁
+  # 璁句负 post 鏃讹紝浠呭彲鎼滅储 post 椤甸潰
+  # 璁句负 page 鏃讹紝浠呭彲鎼滅储闈?post 椤甸潰
+  # 璁句负 all 鏃讹紝鍙悳绱㈠叏閮ㄩ〉闈?
+  field: post
+  # 璁句负 html 鏃讹紝渚濇嵁 html 鏂囦欢鐢熸垚
+  # 璁句负 striptags 鏃讹紝婊ら櫎 html tag
+  # 璁句负 raw 鏃讹紝渚濇嵁 markdown 婧愭枃浠剁敓鎴?
+  format: striptags
+
+# 鑳屾櫙闊充箰
+bgm:
+  enable: false
+  autoplay: false
+  loop: true
+  src: /audio/bgm.mp3
+
+# Vercount
+# 璇﹁ https://vercount.one/
+vercount:
+  enable: false
+  sitePV: true # 绔欑偣鎬昏闂噺
+  siteUV: true # 绔欑偣璁垮鏁?
+  pagePV: true # 椤甸潰璁块棶閲?
+
+# Valine
+# 璇﹁ https://valine.js.org
+valine:
+  enable: false
+  app_id: # APP ID
+  app_key: # APP KEY
+  server_url: # APP DOMAIN锛圠eanCloud 鍥介檯鐗堬級
+  avatar: 'retro' # (''/mp/identicon/monsterid/wavatar/robohash/retro/hide)
+  avatar_cdn: 'https://dn-qiniu-avatar.qbox.me/avatar/' # 鑷畾涔?avatar cdn
+
+# gitalk
+# 璇﹁ https://github.com/gitalk/gitalk
+gitalk:
+  enable: false
+  client_id: # GitHub 搴旂敤 Client ID
+  client_secret: # GitHub 搴旂敤 Client Secret
+  repo: # 鐢ㄤ簬瀛樻斁璇勮鏁版嵁鐨?GitHub 浠撳簱
+  owner: # 璇?GitHub 浠撳簱鎵€鏈夎€?
+  admin: [] # 鍏锋湁鍐欒 GitHub 浠撳簱鏉冮檺鐨勭敤鎴凤紝渚嬪: [adminA,adminB]
+  id: location.pathname # (鍙€? 椤甸潰鐨勫敮涓€鏍囪瘑
+
+# Waline
+# 璇︽儏: https://waline.js.org/
+waline:
+  enable: false
+  server_url: #Server_Url
+  locale:
+    placeholder: "鏈熷緟鎮ㄧ殑璇勮~"
+    # sofa: "鏉ュ彂璇勮鍚"
+    # nick: "鏄电О"
+    # mail: "閭"
+    # link: "缃戝潃"
+    # submit: "鎻愪氦"
+
+#Artalk
+#璇﹁锛歨ttps://artalk.js.org/
+artalk:
+  enable: false
+  server: https://artalk.server.instance/ # 浣犵殑 Artalk 鏈嶅姟鍦板潃
+  site_name: My Blog # 绔欑偣鍚嶇О锛岀敤浜庡尯鍒嗗涓珯鐐癸紙鍙€夛級
+
+# Utterances
+# 璇﹁: https://utteranc.es
+utterances:
+  enable: false
+  repo: # Github 浠撳簱鎵€鏈夎€呭拰鍚嶇О
+  issue_term: pathname # 鍙€夊€? pathname | url | title | og:title
+  theme: github-light # 鍙€夊€? github-light | github-dark | preferred-color-scheme | github-dark-orange | icy-dark | dark-blue | photon-dark | boxy-light
+
+# Giscus
+# 璇﹁: https://giscus.app
+giscus:
+  enable: false
+  repo: # Github 浠撳簱鎵€鏈夎€呭拰鍚嶇О锛屼緥濡? octocat/Hello-World
+  repo_id: # 浠撳簱 ID锛屽彲鍦?giscus 椤甸潰鑾峰彇
+  category: # discussion 鍒嗙被鍚嶇О
+  category_id: # 鍒嗙被 ID锛屽彲鍦?giscus 椤甸潰鑾峰彇
+  mapping: pathname # 椤甸潰 鈫旓笍 discussion 鏄犲皠鍏崇郴锛屽彲閫夊€? pathname | url | title | og:title | specific | number
+  term: # 褰?mapping 涓?specific 鏃朵娇鐢紝鎸囧畾鐨勫瓧绗︿覆
+  discussion_number: # 褰?mapping 涓?number 鏃朵娇鐢紝鎸囧畾鐨?discussion 鍙风爜
+  strict: 0 # 鏄惁鍚敤涓ユ牸鏍囬鍖归厤 0 | 1
+  reactions_enabled: 1 # 鏄惁鍚敤涓诲笘瀛愪笂鐨勫弽搴?0 | 1
+  emit_metadata: 0 # 鏄惁杈撳嚭 discussion 鐨勫厓鏁版嵁 0 | 1
+  input_position: bottom # 璇勮杈撳叆妗嗕綅缃紝鍙€夊€? top | bottom
+  
+  # 涓婚閰嶇疆 - 涓夌閰嶇疆鏂瑰紡浠婚€夊叾涓€锛?
+  # 鏂瑰紡涓€锛氫娇鐢ㄥ崟涓€涓婚锛堝浐瀹氫富棰橈紝涓嶉殢缃戠珯涓婚鍒囨崲锛?
+  theme: preferred_color_scheme # 涓婚锛屽彲閫夊€艰瑙?README.md 鎴?giscus 瀹樼綉
+  
+  # 鏂瑰紡浜岋細鍒嗗埆璁剧疆鏄庢殫涓婚锛堟帹鑽愶紝鏀寔涓婚鑷姩鍒囨崲锛?
+  # theme_light: light # 浜壊妯″紡涓婚
+  # theme_dark: dark # 鏆楄壊妯″紡涓婚
+  
+  # 鏂瑰紡涓夛細浣跨敤鑷畾涔?CSS锛堥珮绾х敤娉曪級
+  # theme: https://your-domain.com/path/to/custom-giscus-theme.css
+  
+  lang: zh-CN # 璇█锛屽彲閫夊€? de | en | es | fr | gsw | id | it | ja | ko | pl | ro | ru | tr | vi | zh-CN | zh-TW
+  loading: lazy # 鎳掑姞杞斤紝鍙€夊€? lazy | 鐣欑┖琛ㄧず涓嶄娇鐢ㄦ噿鍔犺浇
+  crossorigin: anonymous # CORS 璁剧疆锛屽彲閫夊€? anonymous | use-credentials | 鐣欑┖
+  
+  # 楂樼骇閰嶇疆閫夐」
+  description: # 鑷畾涔?discussion 鎻忚堪
+  origin: # 闄愬埗鍩熷悕锛岀敤浜庡畨鍏ㄦ帶鍒?
+  backlink: # 鑷畾涔夎繑鍥為摼鎺ワ紝鐢ㄤ簬 giscus:backlink meta 鏍囩
+
+# 鍥捐〃鏀寔
+mermaid:
+  enable: true
+  version: "11.12.2"
+
+# pjax 鏀寔
+pjax:
+  enable: true
+
+# 鍏紡鍓嶇娓叉煋
+mathjax:
+  enable: false
+  version: "2.6.1"
+
+# 鍦?`<head>` 鏍囩鍐呭紩鍏?CSS 鏍峰紡琛?
+# 鏀寔鐩存帴寮曞叆鐭墖娈碉紝鐢?"{ }" 鍖呰９锛堝寘鎷紩鍙凤級锛屼緥锛?- "{a {color: #2bf}}"
+stylesheets:
+
+# 鍦?`<body>` 灏鹃儴寮曞叆 JavaScript 鑴氭湰
+# 鏀寔鐩存帴寮曞叆鐭墖娈碉紝鐢?"{ }" 鍖呰９锛堝寘鎷紩鍙凤級锛屼緥锛?- "{var test='test'}"
+scripts:
+
